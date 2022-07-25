@@ -3,7 +3,6 @@ import {
   Image,
   SafeAreaView,
   StyleSheet,
-  Text,
   TextInput,
   View,
 } from "react-native";
@@ -15,6 +14,7 @@ import {
 } from "react-native-heroicons/solid";
 
 export default function App() {
+  const logoUrl = "https://th.bing.com/th/id/R.e172013c933bc44c7edec94a15226b60?rik=L77oNzoYPYumTw&riu=http%3a%2f%2fdwglogo.com%2fwp-content%2fuploads%2f2016%2f01%2fDuckDuckGo-Logo.png&ehk=0BMYsGx%2fYianLjoPXqB4M3E2KnpK9gBLBJBWM2xQHoE%3d&risl=&pid=ImgRaw&r=0"
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar style="auto" />
@@ -30,7 +30,7 @@ export default function App() {
       <View style={styles.mainBody}>
         <Image
           source={{
-            uri: "https://th.bing.com/th/id/R.e172013c933bc44c7edec94a15226b60?rik=L77oNzoYPYumTw&riu=http%3a%2f%2fdwglogo.com%2fwp-content%2fuploads%2f2016%2f01%2fDuckDuckGo-Logo.png&ehk=0BMYsGx%2fYianLjoPXqB4M3E2KnpK9gBLBJBWM2xQHoE%3d&risl=&pid=ImgRaw&r=0",
+            uri: logoUrl,
           }}
           style={styles.image}
         />
